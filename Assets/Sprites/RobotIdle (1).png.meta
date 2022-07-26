@@ -1,0 +1,718 @@
+fileFormatVersion: 2
+guid: 07b20490b5371da4baab1c85c0c4a1ce
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -8497284361783901319
+    second: RobotIdle (1)_0
+  - first:
+      213: -4021738129432725381
+    second: RobotIdle (1)_1
+  - first:
+      213: -92951293831570700
+    second: RobotIdle (1)_2
+  - first:
+      213: 7710672885833497646
+    second: RobotIdle (1)_3
+  - first:
+      213: 5176537191281219973
+    second: RobotIdle (1)_4
+  - first:
+      213: 198153116307204605
+    second: RobotIdle (1)_5
+  - first:
+      213: 6026431546572526361
+    second: RobotIdle (1)_6
+  - first:
+      213: -3732319321052472427
+    second: RobotIdle (1)_7
+  - first:
+      213: 4833976655772101213
+    second: RobotIdle (1)_8
+  - first:
+      213: -7555144726994625439
+    second: RobotIdle (1)_9
+  - first:
+      213: 5735415423273878890
+    second: RobotIdle (1)_10
+  - first:
+      213: -4986899326146976211
+    second: RobotIdle (1)_11
+  - first:
+      213: 8912455253632901696
+    second: RobotIdle (1)_12
+  - first:
+      213: 5519950490258709861
+    second: RobotIdle (1)_13
+  - first:
+      213: 2175532073667011086
+    second: RobotIdle (1)_14
+  - first:
+      213: -5485142444133311911
+    second: RobotIdle (1)_15
+  - first:
+      213: -5812160002539911278
+    second: RobotIdle (1)_16
+  - first:
+      213: -6032433414032764674
+    second: RobotIdle (1)_0
+  - first:
+      213: 852734993089182107
+    second: RobotIdle (1)_1
+  - first:
+      213: -6970504731605478833
+    second: RobotIdle (1)_2
+  - first:
+      213: -8942796812673472585
+    second: RobotIdle (1)_3
+  - first:
+      213: -5533586250747397474
+    second: RobotIdle (1)_4
+  - first:
+      213: -5945418239207110384
+    second: RobotIdle (1)_5
+  - first:
+      213: -6327447020685258722
+    second: RobotIdle (1)_6
+  - first:
+      213: -8056831968097333486
+    second: RobotIdle (1)_7
+  - first:
+      213: 8859826880110069406
+    second: RobotIdle (1)_8
+  - first:
+      213: -1101939250623906836
+    second: RobotIdle (1)_9
+  - first:
+      213: 4279629046774862906
+    second: RobotIdle (1)_10
+  - first:
+      213: 290455736263237079
+    second: RobotIdle (1)_11
+  - first:
+      213: 5844474567543322049
+    second: RobotIdle (1)_12
+  - first:
+      213: 6159390258929896779
+    second: RobotIdle (1)_13
+  - first:
+      213: 3869321199544162100
+    second: RobotIdle (1)_14
+  - first:
+      213: 2321802955960761168
+    second: RobotIdle (1)_15
+  - first:
+      213: -2151313194291628079
+    second: RobotIdle (1)_16
+  - first:
+      213: -9150315784884226527
+    second: RobotIdle (1)_17
+  - first:
+      213: 706445734186721855
+    second: RobotIdle (1)_18
+  - first:
+      213: -2533880837893191555
+    second: RobotIdle (1)_17
+  - first:
+      213: -4484517673193761464
+    second: RobotIdle (1)_18
+  - first:
+      213: 3888011866171314550
+    second: RobotIdle (1)_19
+  - first:
+      213: -4604433230388348078
+    second: RobotIdle (1)_19
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 52
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 0
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 1024
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 1024
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 1024
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 1024
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 1024
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 1024
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: RobotIdle (1)_3
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 404
+        width: 40
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b72a1a0eadc4e380800000000000000
+      internalID: 7710672885833497646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RobotIdle (1)_4
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 332
+        width: 48
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9a37368f90c433b0800000000000000
+      internalID: 5176537191281219973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RobotIdle (1)_5
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 308
+        width: 40
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0198ee29c91ad7da0800000000000000
+      internalID: 198153116307204605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RobotIdle (1)_6
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 324
+        width: 4
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1093fc75746038a0800000000000000
+      internalID: 6026431546572526361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RobotIdle (1)_7
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 296
+        width: 12
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21f0c8e0302603090800000000000000
+      internalID: -3732319321052472427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RobotIdle (1)_8
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 296
+        width: 12
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e960b682b9d64fa70800000000000000
+      internalID: 4833976655772101213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RobotIdle (1)_9
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 212
+        width: 40
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ceb7082071025b0f0800000000000000
+      internalID: -7555144726994625439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RobotIdle (1)_10
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 212
+        width: 40
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a34957f81fb446b30800000000000000
+      internalID: 5735415423273878890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RobotIdle (1)_11
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 212
+        width: 40
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ddd1f604f7e70400800000000000000
+      internalID: -4986899326146976211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RobotIdle (1)_12
+      rect:
+        serializedVersion: 2
+        x: 412
+        y: 232
+        width: 48
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c5793167aebb1150800000000000000
+      internalID: 8912455253632901696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RobotIdle (1)_13
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 112
+        width: 40
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4d84808ecc8a7550800000000000000
+      internalID: 5519950490258709861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RobotIdle (1)_14
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 136
+        width: 48
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 437d7b4612792b530800000000000000
+      internalID: 2175532073667011086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RobotIdle (1)_15
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 112
+        width: 40
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05b3e7cac73b83020800000000000000
+      internalID: -5485142444133311911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RobotIdle (1)_16
+      rect:
+        serializedVersion: 2
+        x: 412
+        y: 136
+        width: 48
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d7f2a54c000522e0800000000000000
+      internalID: -5812160002539911278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RobotIdle (1)_0
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 428
+        width: 48
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef0516965cd784ca0800000000000000
+      internalID: -8497284361783901319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RobotIdle (1)_1
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 435
+        width: 40
+        height: 20
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9930ae45f585db00800000000000000
+      internalID: -4021738129432725381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RobotIdle (1)_2
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 404
+        width: 16
+        height: 28
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f42d97fb0eac34f90800000000000000
+      internalID: -92951293831570700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RobotIdle (1)_17
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 44
+        width: 48
+        height: 40
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7805329dc8d5dcd0800000000000000
+      internalID: -9150315784884226527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RobotIdle (1)_18
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 8
+        width: 84
+        height: 84
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 845135cafeac3c1c0800000000000000
+      internalID: 706445734186721855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RobotIdle (1)_19
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 16
+        width: 40
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25bb2be4f54c910c0800000000000000
+      internalID: 3888011866171314550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      RobotIdle (1)_6: 6026431546572526361
+      RobotIdle (1)_17: -9150315784884226527
+      RobotIdle (1)_2: -92951293831570700
+      RobotIdle (1)_14: 2175532073667011086
+      RobotIdle (1)_5: 198153116307204605
+      RobotIdle (1)_9: -7555144726994625439
+      RobotIdle (1)_11: -4986899326146976211
+      RobotIdle (1)_19: 3888011866171314550
+      RobotIdle (1)_4: 5176537191281219973
+      RobotIdle (1)_15: -5485142444133311911
+      RobotIdle (1)_16: -5812160002539911278
+      RobotIdle (1)_1: -4021738129432725381
+      RobotIdle (1)_18: 706445734186721855
+      RobotIdle (1)_3: 7710672885833497646
+      RobotIdle (1)_7: -3732319321052472427
+      RobotIdle (1)_12: 8912455253632901696
+      RobotIdle (1)_13: 5519950490258709861
+      RobotIdle (1)_10: 5735415423273878890
+      RobotIdle (1)_0: -8497284361783901319
+      RobotIdle (1)_8: 4833976655772101213
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
