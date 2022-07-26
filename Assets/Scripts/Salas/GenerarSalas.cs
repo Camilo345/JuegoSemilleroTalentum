@@ -52,19 +52,19 @@ public class GenerarSalas : MonoBehaviour
         switch (num)
         {
             case 0:
-                dir = new Vector2(0, 14);
+                dir = new Vector2(0, 18);
                 intDireccion = 0;
                 break;
             case 1:
-                dir = new Vector2(22, 0);
+                dir = new Vector2(26, 0);
                 intDireccion = 1;
                 break;
             case 2:
-                dir = new Vector2(0, -14);
+                dir = new Vector2(0, -18);
                 intDireccion = 2;
                 break;
             case 3:
-                dir = new Vector2(-22, 0);
+                dir = new Vector2(-26, 0);
                 intDireccion = 3;
                 break;
         }

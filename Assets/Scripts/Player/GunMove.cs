@@ -28,7 +28,7 @@ public class GunMove : MonoBehaviour
     }
     private void FixedUpdate()
     {
-        //cambiarScalaY();
+       // cambiarScalaY();
         apuntarAlMouse();
     }
 
@@ -36,7 +36,7 @@ public class GunMove : MonoBehaviour
     {
         if (mousePosition.x < transform.position.x)
         {
-            transform.localScale = new Vector3(1f, -1f, 1);
+            transform.localScale = new Vector3(-1f, -1f, 1);
         }
         else
         {  

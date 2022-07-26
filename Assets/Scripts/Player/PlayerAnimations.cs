@@ -52,7 +52,7 @@ public class PlayerAnimations : MonoBehaviour
 
     public void disparar()
     {
-        Debug.Log("aqui estoy");
-        animArco.SetTrigger("disparar");
+       // Debug.Log("aqui estoy");
+      //  animArco.SetTrigger("disparar");
     }
 }

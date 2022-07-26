@@ -5,8 +5,9 @@ using Cinemachine;
 
 public class ponerPuente : MonoBehaviour
 {
-    public List<SpriteRenderer> listaPuentes;
+    //public List<SpriteRenderer> listaPuentes;
     public List<GameObject> listaBlqueos;
+    public List<GameObject> listaPuentes;
     public CinemachineVirtualCamera cmvc;
     public bool esCentral;
 
@@ -70,9 +71,10 @@ public class ponerPuente : MonoBehaviour
 
     void activarPuente(int ind)
     {
-        Color c = listaPuentes[ind].color;
+       // Color c = listaPuentes[ind].color;
         listaBlqueos[ind].SetActive(false);
-        c.a = 1;
-        listaPuentes[ind].color = c;
+        listaPuentes[ind].SetActive(true);
+      //  c.a = 1;
+     //   listaPuentes[ind].color = c;
     }
 }
