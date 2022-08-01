@@ -17,7 +17,18 @@ public class PlayerMove : MonoBehaviour
     private Vector2 direccionRay=Vector2.zero;
     private RaycastHit2D hit;
     private Vector2 movement;
+    private bool jugadorMuerto = false;
 
+
+    private void OnEnable()
+    {
+        VidaPlayer.jugadorMurio += jugadorMurio;
+    }
+
+    private void OnDisable()
+    {
+        VidaPlayer.jugadorMurio -= jugadorMurio;
+    }
 
     // Start is called before the first frame update
     void Start()
@@ -37,9 +48,13 @@ public class PlayerMove : MonoBehaviour
 
     private void FixedUpdate()
     {
-        comprobarParedes();
-        moverse();
-        cambiarEscala();
+        if (!jugadorMuerto)
+        {
+            comprobarParedes();
+            moverse();
+            cambiarEscala();
+        }
+     
         
     }
 
@@ -79,5 +94,8 @@ public class PlayerMove : MonoBehaviour
         }
     }
 
-    
+    void jugadorMurio()
+    {
+        jugadorMuerto = true;
+    }
 }

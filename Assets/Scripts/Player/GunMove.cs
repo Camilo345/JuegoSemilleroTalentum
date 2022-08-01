@@ -9,8 +9,21 @@ public class GunMove : MonoBehaviour
     //numero que cambiara multiplicara la escala para que el sprite mire a la izquierda o derecha
     public float direccion;
 
+
+    private bool jugadorMuerto = false;
     Vector3 mousePosition;
     GameObject player;
+
+    private void OnEnable()
+    {
+        VidaPlayer.jugadorMurio += jugadorMurio;
+    }
+
+    private void OnDisable()
+    {
+        VidaPlayer.jugadorMurio -= jugadorMurio;
+    }
+
     // Start is called before the first frame update
     void Start()
     {
@@ -29,6 +42,7 @@ public class GunMove : MonoBehaviour
     private void FixedUpdate()
     {
        // cambiarScalaY();
+       if(!jugadorMuerto)
         apuntarAlMouse();
     }
 
@@ -51,5 +65,10 @@ public class GunMove : MonoBehaviour
          transform.rotation = Quaternion.Euler(0f, 0f, angle);
         //transform.LookAt(mousePosition,Vector2.up);
     }
-   
+
+
+    void jugadorMurio()
+    {
+        jugadorMuerto = true;
+    }
 }

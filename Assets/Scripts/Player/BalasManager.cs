@@ -9,27 +9,48 @@ public class BalasManager : MonoBehaviour
     public float fuerza;
     public float iniciarTiempoEntreDisparos;
     public List<GameObject> listaBalas;
-    
 
-    float tiempoEntreDisparos;
-    int numeroBalas=10;
+
+    private float tiempoEntreDisparos;
+    private int numeroBalas =10;
+    private bool jugadorMuerto=false;
 
     public delegate void actionDisparar();
     public static event actionDisparar dispararArco;
+
+    private void OnEnable()
+    {
+        VidaPlayer.jugadorMurio += jugadorMurio;
+    }
+
+    private void OnDisable()
+    {
+        VidaPlayer.jugadorMurio -= jugadorMurio;
+    }
+
     // Start is called before the first frame update
     void Start()
     {
+        
         instanciarBalas();
     }
 
     // Update is called once per frame
     void Update()
     {
+        if (!jugadorMuerto)
+            revisarBotonDisparar();
+
+
+    }
+
+    void revisarBotonDisparar()
+    {
         if (tiempoEntreDisparos <= 0)
         {
             if (Input.GetButtonDown("Fire1"))
             {
-                Invoke("shoot",0.3f);
+                Invoke("shoot", 0.3f);
                 tiempoEntreDisparos = iniciarTiempoEntreDisparos;
                 dispararArco();
             }
@@ -38,8 +59,6 @@ public class BalasManager : MonoBehaviour
         {
             tiempoEntreDisparos -= Time.deltaTime;
         }
-        
-      
     }
     void shoot()
     {
@@ -72,5 +91,10 @@ public class BalasManager : MonoBehaviour
             }
         }
         return null;
+    }
+
+    void jugadorMurio()
+    {
+        jugadorMuerto = true;
     }
 }
