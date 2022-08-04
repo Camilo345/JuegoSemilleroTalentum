@@ -48,7 +48,20 @@ public class GenerarSalas : MonoBehaviour
     Vector2 generarDireccionAlAzar()
     {
         Vector2 dir = Vector2.zero;
-        int num = Random.Range(0, 4);
+        int num=2;
+        bool otroNumero = true;
+        while (otroNumero)
+        {
+            num = Random.Range(0, 4);
+            if (salaActual.transform.position == Vector3.zero && num==0)
+            {
+                otroNumero = true;
+            }
+            else
+            {
+                otroNumero = false;
+            }
+        }
         switch (num)
         {
             case 0:

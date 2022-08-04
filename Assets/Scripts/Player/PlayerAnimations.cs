@@ -8,15 +8,19 @@ public class PlayerAnimations : MonoBehaviour
     public Animator animArco;
 
     private Vector2 movement;
-
+    private bool playerMuerto = false;
     private void OnEnable()
     {
         BalasManager.dispararArco += disparar;
+        VidaPlayer.jugadorMurio += lose;
+        VidaPlayer.jugadorDañado += daño;
     }
 
     private void OnDisable()
     {
         BalasManager.dispararArco -= disparar;
+        VidaPlayer.jugadorMurio -= lose;
+        VidaPlayer.jugadorDañado -= daño;
     }
     // Start is called before the first frame update
     void Start()
@@ -47,7 +51,22 @@ public class PlayerAnimations : MonoBehaviour
  
     public void lose()
     {
+        Invoke("animacionMorir",1f);
+    }
+
+    void animacionMorir()
+    {
         animPlayer.SetTrigger("playerDie");
+        playerMuerto = true;
+    }
+
+    public void daño(float daño)
+    {
+        if (!playerMuerto)
+        {
+            animPlayer.SetTrigger("playerDamage");
+        }
+       
     }
 
     public void disparar()
