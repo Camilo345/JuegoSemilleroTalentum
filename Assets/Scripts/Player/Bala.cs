@@ -6,12 +6,22 @@ public class Bala : MonoBehaviour
 {
     public float velocidad=60;
     public float daño;
-
+    public bool isDeEnemigo=false;
     Vector2 mousePos;
+    
+    private progresionNiveles progresion;
+    private void OnEnable()
+    {
+        if (isDeEnemigo)
+        {
+            progresion = GameObject.FindGameObjectWithTag("Tipo").GetComponent<progresionNiveles>();
+            velocidad = progresion.velocidadCalavera;
+        }
+    }
     // Start is called before the first frame update
     void Start()
     {
-      
+        
     }
 
     // Update is called once per frame

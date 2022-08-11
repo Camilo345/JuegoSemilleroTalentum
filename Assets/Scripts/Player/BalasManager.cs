@@ -48,7 +48,7 @@ public class BalasManager : MonoBehaviour
     {
         if (tiempoEntreDisparos <= 0)
         {
-            if (Input.GetButtonDown("Fire1"))
+            if (Input.GetButtonDown("Fire1") || Input.GetKeyDown(KeyCode.Space))
             {
                 Invoke("shoot", 0.3f);
                 tiempoEntreDisparos = iniciarTiempoEntreDisparos;

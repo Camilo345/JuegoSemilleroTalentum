@@ -8,6 +8,10 @@ TagManager:
   - Bala
   - BalaEnemigo
   - Enemigo
+  - Tipo
+  - mirilla
+  - camMini
+  - target
   layers:
   - Default
   - TransparentFX
@@ -74,4 +78,10 @@ TagManager:
     locked: 0
   - name: 10
     uniqueID: 3905855755
+    locked: 0
+  - name: 11
+    uniqueID: 3568652163
+    locked: 0
+  - name: New Layer 12
+    uniqueID: 3167420147
     locked: 0

@@ -8,10 +8,12 @@ public class GenerarSalas : MonoBehaviour
     public GameObject salaCentral;
     public GameObject salaPreFab;
     public List<GameObject> listaSalas;
+    public generarMiniSala miniMapa;
 
     private int indiceSala = 1;
     private int intDireccion;
     private GameObject salaActual;
+    private int indiceSalaActual=0;
     // Start is called before the first frame update
     void Start()
     {
@@ -32,16 +34,18 @@ public class GenerarSalas : MonoBehaviour
         Vector2 actualPos = transform.position;
         Vector2 dir = generarDireccionAlAzar();
         transform.position = actualPos + dir;
+        miniMapa.moverse(intDireccion);
         bool estaOcupada = revisarSalaEnPosicion(transform.position);
         if(estaOcupada ==false)
         {
-            spawnearSala();   
+            spawnearSala();
+           
         }
         if(indiceSala < numeroSalas)
         {
          
-            //Invoke("GenerarSala", 1f);
-            GenerarSala();
+            //Invoke("GenerarSala", 3f);
+          GenerarSala();
         }
     }
 
@@ -94,7 +98,13 @@ public class GenerarSalas : MonoBehaviour
             {
                 estaOcupada = true;
                 salaActual = listaSalas[i];
-            } 
+               
+            }
+            if (salaActual == listaSalas[i])
+            {
+                indiceSalaActual = i;
+           
+            }
         }
       
         return estaOcupada;
@@ -110,6 +120,9 @@ public class GenerarSalas : MonoBehaviour
         salaNueva.transform.GetChild(0).GetComponent<ponerPuente>().quitarBloqueoNuevo(intDireccion);
         listaSalas.Add(salaNueva);
         salaActual = listaSalas[indiceSala - 1];
+
+        GameObject miniSal = miniMapa.ponerSala(intDireccion,indiceSalaActual);
+        salaNueva.GetComponent<enemigosEnLaSala>().minisala = miniSal;
     }
 
 }

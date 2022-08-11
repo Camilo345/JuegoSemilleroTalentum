@@ -8,7 +8,7 @@ public class GunMove : MonoBehaviour
     public Camera cam;
     //numero que cambiara multiplicara la escala para que el sprite mire a la izquierda o derecha
     public float direccion;
-
+    public GameObject mirilla;
 
     private bool jugadorMuerto = false;
     Vector3 mousePosition;
@@ -22,11 +22,13 @@ public class GunMove : MonoBehaviour
     private void OnDisable()
     {
         VidaPlayer.jugadorMurio -= jugadorMurio;
+        Cursor.visible = true;
     }
 
     // Start is called before the first frame update
     void Start()
     {
+        Cursor.visible = false;
         player = GameObject.FindWithTag("Player");
     }
 
@@ -35,7 +37,8 @@ public class GunMove : MonoBehaviour
     {
        
             mousePosition = cam.ScreenToWorldPoint(Input.mousePosition);
-        
+        //Debug.Log(cam.transform.position);
+       // mirilla.transform.position = mousePosition - cam.transform.position;
 
 
     }
@@ -60,6 +63,7 @@ public class GunMove : MonoBehaviour
     void apuntarAlMouse()
     {
          Vector2 lookDic = mousePosition - transform.position;
+       
          float angle = Mathf.Atan2(lookDic.y, lookDic.x) * Mathf.Rad2Deg;
         angle = angle + 90;
          transform.rotation = Quaternion.Euler(0f, 0f, angle);
