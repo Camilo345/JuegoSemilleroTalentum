@@ -14,7 +14,6 @@ public class PlayerMove : MonoBehaviour
     
     private bool puedeAvanzar = true;
     private Vector2 mousePosition;
-    private Vector2 direccionRay=Vector2.zero;
     private RaycastHit2D hit;
     private Vector2 movement;
     private bool jugadorMuerto = false;
@@ -63,7 +62,7 @@ public class PlayerMove : MonoBehaviour
     void comprobarParedes()
     {
         hit = Physics2D.Raycast(transform.position, movement, 0.5f, pared);
-        Debug.DrawRay(transform.position, movement, Color.green);
+      //  Debug.DrawRay(transform.position, movement, Color.green);
         if (hit.collider != null)
         {
             puedeAvanzar = false;

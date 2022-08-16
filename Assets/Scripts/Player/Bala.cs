@@ -6,13 +6,13 @@ public class Bala : MonoBehaviour
 {
     public float velocidad=60;
     public float daño;
-    public bool isDeEnemigo=false;
+    public bool esDeEnemigo=false;
     Vector2 mousePos;
     
     private progresionNiveles progresion;
     private void OnEnable()
     {
-        if (isDeEnemigo)
+        if (esDeEnemigo)
         {
             progresion = GameObject.FindGameObjectWithTag("Tipo").GetComponent<progresionNiveles>();
             velocidad = progresion.velocidadCalavera;

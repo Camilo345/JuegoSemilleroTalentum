@@ -6,13 +6,12 @@ public class GunMove : MonoBehaviour
 {
  
     public Camera cam;
-    //numero que cambiara multiplicara la escala para que el sprite mire a la izquierda o derecha
     public float direccion;
     public GameObject mirilla;
 
     private bool jugadorMuerto = false;
-    Vector3 mousePosition;
-    GameObject player;
+    private Vector3 mousePosition;
+    private GameObject player;
 
     private void OnEnable()
     {
@@ -67,7 +66,7 @@ public class GunMove : MonoBehaviour
          float angle = Mathf.Atan2(lookDic.y, lookDic.x) * Mathf.Rad2Deg;
         angle = angle + 90;
          transform.rotation = Quaternion.Euler(0f, 0f, angle);
-        //transform.LookAt(mousePosition,Vector2.up);
+        
     }
 
 

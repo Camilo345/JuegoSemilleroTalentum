@@ -12,7 +12,7 @@ public class BalasManager : MonoBehaviour
 
 
     private float tiempoEntreDisparos;
-    private int numeroBalas =10;
+    private int numeroBalas =15;
     private bool jugadorMuerto=false;
 
     public delegate void actionDisparar();

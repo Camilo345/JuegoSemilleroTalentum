@@ -8,14 +8,14 @@ public class ponerPuente : MonoBehaviour
     //public List<SpriteRenderer> listaPuentes;
     public List<GameObject> listaBlqueos;
     public List<GameObject> listaPuentes;
-    public CinemachineVirtualCamera cmvc;
+    public CinemachineVirtualCamera camaraCineMachine;
     public bool esCentral;
 
     private List<SpriteRenderer> listaSpriteColor;
     private void OnEnable()
     {
         if(!esCentral)
-        cmvc.Priority = 7;
+            camaraCineMachine.Priority = 7;
     }
     // Start is called before the first frame update
     void Start()

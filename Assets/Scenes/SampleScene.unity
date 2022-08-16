@@ -658,7 +658,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dd88f340c97a56a41bf51844d3a945ed, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  es: {fileID: 0}
+  scriptControlEnemigos: {fileID: 0}
   miniPuente: {fileID: 732044307}
   esCentral: 1
 --- !u!50 &59322564
@@ -720,8 +720,8 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 9
+  m_Father: {fileID: 410974060}
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &74033523
 GameObject:
@@ -1902,6 +1902,50 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
+--- !u!1 &163766032
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 163766034}
+  - component: {fileID: 163766033}
+  m_Layer: 0
+  m_Name: GameObject
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &163766033
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 163766032}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ff3b935d885c72648a32d6bea97278f8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!4 &163766034
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 163766032}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -7.07683, y: -1.1625443, z: -0.5945052}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 9
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &166670869
 GameObject:
   m_ObjectHideFlags: 0
@@ -2413,7 +2457,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &199821327
 RectTransform:
   m_ObjectHideFlags: 0
@@ -3432,10 +3476,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 222e35cc0118f0444a54739101321227, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  lista:
-  - {fileID: 1628636224}
-  - {fileID: 1751444040}
-  - {fileID: 1153508210}
+  listaPaginas: []
   listaAnim:
   - {fileID: 1628636226}
   - {fileID: 1751444042}
@@ -6384,6 +6425,7 @@ Transform:
   - {fileID: 285586371}
   - {fileID: 1908811843}
   - {fileID: 418007637}
+  - {fileID: 59322566}
   m_Father: {fileID: 0}
   m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -14720,7 +14762,7 @@ MonoBehaviour:
   - {fileID: 767083928}
   - {fileID: 997166575}
   - {fileID: 1135392783}
-  cmvc: {fileID: 971889955}
+  camaraCineMachine: {fileID: 0}
   esCentral: 1
 --- !u!1 &875524810
 GameObject:
@@ -16499,7 +16541,7 @@ MonoBehaviour:
     ModeOverride: 0
     LensShift: {x: 0, y: 0}
     GateFit: 2
-    m_SensorSize: {x: 1.7773279, y: 1}
+    m_SensorSize: {x: 1.7777259, y: 1}
   m_Transitions:
     m_BlendHint: 0
     m_InheritPosition: 0
@@ -17952,7 +17994,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8b1f0b6020853884686503f0be7ca7b0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  indi: {fileID: 1020116094}
+  scriptIndicadores: {fileID: 1020116094}
 --- !u!4 &1020116093
 Transform:
   m_ObjectHideFlags: 0
@@ -18006,7 +18048,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   indicadores: {fileID: 1020116094}
   puntaje: 0
-  puer: {fileID: 648502137}
+  scriptPuerta: {fileID: 648502137}
 --- !u!114 &1020116097
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -18036,6 +18078,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   panelPause: {fileID: 1938348809}
+  tutorial: {fileID: 256319595}
 --- !u!114 &1020116099
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -20875,10 +20918,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 884f9aa1a3bdf744fb7d6636203b0db0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  velocidadMurciela: 0
+  velocidadMurcielago: 0
   velocidadCalavera: 0
   tipoEne: {fileID: 1149223247}
-  puert: {fileID: 648502137}
+  scriptPuerta: {fileID: 648502137}
   salas: {fileID: 1149223244}
   indi: {fileID: 1020116094}
 --- !u!114 &1149223247
@@ -22251,9 +22294,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'PAUSE
-
-'
+  m_text: PAUSA
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 2647260e34b1cca43b7d07d41e59b991, type: 2}
   m_sharedMaterial: {fileID: -1012872148165793032, guid: 2647260e34b1cca43b7d07d41e59b991, type: 2}
@@ -23797,7 +23838,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: -16.999998, y: -31}
-  m_SizeDelta: {x: 464.84, y: 50}
+  m_SizeDelta: {x: 483.53, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!95 &1332857951
 Animator:
@@ -23839,7 +23880,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Press ESC to continue
+  m_text: Presiona ESC para continuar
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 2647260e34b1cca43b7d07d41e59b991, type: 2}
   m_sharedMaterial: {fileID: -1012872148165793032, guid: 2647260e34b1cca43b7d07d41e59b991, type: 2}
@@ -23866,8 +23907,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 36
-  m_fontSizeBase: 36
+  m_fontSize: 28
+  m_fontSizeBase: 28
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18

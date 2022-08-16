@@ -44,7 +44,7 @@ public class GenerarSalas : MonoBehaviour
         if(indiceSala < numeroSalas)
         {
          
-            //Invoke("GenerarSala", 3f);
+          //Invoke("GenerarSala", 0.1f);
           GenerarSala();
         }
     }
@@ -69,18 +69,22 @@ public class GenerarSalas : MonoBehaviour
         switch (num)
         {
             case 0:
+                //Arriba
                 dir = new Vector2(0, 18);
                 intDireccion = 0;
                 break;
             case 1:
+                //Derecha
                 dir = new Vector2(26, 0);
                 intDireccion = 1;
                 break;
             case 2:
+                //Izquierda
                 dir = new Vector2(0, -18);
                 intDireccion = 2;
                 break;
             case 3:
+                //Derecha
                 dir = new Vector2(-26, 0);
                 intDireccion = 3;
                 break;

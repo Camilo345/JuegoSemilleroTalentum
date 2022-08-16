@@ -8,7 +8,7 @@ public class PlayerAnimations : MonoBehaviour
     public Animator animArco;
 
     private Vector2 movement;
-    private bool playerMuerto = false;
+    private bool jugadorMuerto = false;
     private void OnEnable()
     {
         BalasManager.dispararArco += disparar;
@@ -57,12 +57,12 @@ public class PlayerAnimations : MonoBehaviour
     void animacionMorir()
     {
         animPlayer.SetTrigger("playerDie");
-        playerMuerto = true;
+        jugadorMuerto = true;
     }
 
     public void daño(float daño)
     {
-        if (!playerMuerto)
+        if (!jugadorMuerto)
         {
             animPlayer.SetTrigger("playerDamage");
         }
